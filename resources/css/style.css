@@ -1,0 +1,180 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.full-width-header {
+  width: 100%;
+  background-color: black;
+}
+
+.full-width-banner {
+  width: 100%;
+  background-image: url("../../resources/images/moto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.full-width-navigation {
+  width: 100%;
+  background-color: firebrick;
+}
+
+.full-width-products {
+  width: 100%;
+}
+
+.full-width-location {
+  width: 100%;
+}
+
+.full-width-footer{
+  width: 100%;
+  background-color: black;
+}
+
+.not-full-width {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.header span {
+  color: white;
+  font-size: 1rem;
+  padding-top: 0.33rem;
+}
+
+/* Banner */
+
+.main-banner {
+  height: 25rem;
+}
+
+.banner {
+  color: white;
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+  top: 9rem;
+  position: relative;
+}
+
+.banner h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding-bottom: 0.25rem;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding-top: 0.25rem;
+}
+
+/* Navigation */
+
+.main-navigation {
+  background-color: firebrick;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+/* Products */
+
+.main-products {
+
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  background-color: white;
+}
+
+.products img {
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products p {
+  color: white;
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
+  display: block;
+}
+
+.pen {
+  width: 30%;
+}
+
+.watch {
+  width: 30%;
+}
+
+.glasses {
+  width: 30%;
+}
+
+/* Location and Hours */
+
+.location-hours {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.location {
+  width: 35%;
+}
+
+.hours {
+  width: 35%
+}
+
+.title {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 5rem 0;
+  margin-top: 4rem;
+}
